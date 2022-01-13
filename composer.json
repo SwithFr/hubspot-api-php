@@ -1,6 +1,5 @@
 {
     "name": "swithfr/api-client",
-    "version": "5.0.1",
     "description": "Hubspot API client",
     "keywords": [
         "hubspot",
