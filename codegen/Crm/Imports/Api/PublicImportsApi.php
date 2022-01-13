@@ -414,7 +414,7 @@ class PublicImportsApi
         if ($apiKey !== null) {
             $queryParams['hapikey'] = $apiKey;
         }
-        // this endpoint requires OAuth (access token) - Added by Keith 20-12-2021
+        // this endpoint requires OAuth (access token)
         if ($this->config->getAccessToken() !== null) {
             $headers['Authorization'] = 'Bearer ' . $this->config->getAccessToken();
         }
